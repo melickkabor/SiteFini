@@ -1,0 +1,14 @@
+enable : true
+heading : "La vérité en chiffre"
+counter_item: 
+  - title: "Clients satisfaits"
+    number: "250"
+
+  - title: "Projet terminés"
+    number: "100"
+
+  - title: "Temps de sommeil"
+    number: "2H"
+
+  - title: "Crtl C Ctrl V"
+    number: "900"

@@ -1,0 +1,97 @@
+# baseURL       = "http://example.org/"
+languageCode  = "fr-FR"
+title         = "MELICK KABORE"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Accueil"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 2
+  [[menu.nav]]
+    name    = "A propos"
+    url     = "about"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = ""
+    heading               = "MKAB Consulting, des solutions disruptives pour une marketing innovateur"
+    primary_button        = "Mes travaux récents"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Me contacter"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "Mes récents travaux"
+    subtitle  = "Melick le choix logique."
+    primary_button_url = "portfolio"
+
+  [params.call_to_action]
+    enable              = true
+    title               = "TRAVAILLONS ENSEMBLE!"
+    primary_button      = "C'est parti"
+    primary_button_url  = "Contact"
+
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact"
+      address = "21 Rue Saint filleul"
+      phone   = "+33 07 85 85 97"
+      email   = "melickkabore1@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "MENU "
+        [[params.footer.sitemap.link]]
+          name = "A Propos"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Mes travaux"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Réseaux Sociaux"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "Instagram"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "LinkedIn"
+

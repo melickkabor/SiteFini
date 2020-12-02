@@ -1,0 +1,23 @@
+/**
+ * Feuille de style personnalisée
+ ============================================ */
+ .btn-primary, .btn-secondary{
+     background-color:black ;
+ }
+ .btn-primary:hover, .btn-secondary:hover{
+    background-color:black ;
+}
+
+.site-footer{
+    background-color: black;
+}
+
+.site-about-company {
+    background-color: black;
+}
+#counter{
+    background-color: black;
+}
+.site-cta-title {
+    color: black;
+}
