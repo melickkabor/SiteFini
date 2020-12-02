@@ -1,4 +1,4 @@
-# baseURL       = "http://example.org/"
+# baseURL       = "https://melick.netlify.app/"
 languageCode  = "fr-FR"
 title         = "MELICK KABORE"
 theme         = "roxo"
